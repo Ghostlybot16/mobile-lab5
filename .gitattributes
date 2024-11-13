@@ -1,0 +1,10 @@
+# Enforce CRLF line endings for text files 
+* text=auto eol=CRLF
+
+# Config for other file types 
+*.js text eol=CRLF
+*.jsx text eol=CRLF
+*.json text eol=CRLF
+*.md text eol=CRLF
+*.yml text eol=CRLF
+*.yaml text eol=CRLF 

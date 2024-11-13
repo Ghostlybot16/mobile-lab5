@@ -72,3 +72,27 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+#Ignore Mac files 
+Thumbs.db
+
+# Ignore Log and temp files 
+*.log
+*.tmp 
+*.temp
+temp/
+.tmp/
+.cache/
+.vscode/
+
+# Ignore Jest 
+jest-cache/
+jest-temp/
+
+#Ignore React Native files 
+ios/Pods/
+ios/build/
+android/app/build/
+android/app/src/main/res/drawable-*/*.png 
+android/.gradle/
+android/app/debug.keystore
